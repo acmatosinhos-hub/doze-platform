@@ -1,4 +1,4 @@
-# DOZE Platform — Super Admin v0.1
+# DOZE Platform — Super Admin v0.2
 
 Primeira versão visual e funcional do painel central da DOZE, construída para o mesmo fluxo GitHub + Netlify usado no projeto do AC Matosinhos.
 
@@ -6,13 +6,15 @@ Primeira versão visual e funcional do painel central da DOZE, construída para 
 
 - Dashboard global
 - Gestão de clubes
-- AC Matosinhos pré-criado como demonstração
+- AC Matosinhos pré-criado com logótipo e URL reais
 - Criação de novos clubes
 - Ficha individual de clube
 - Identidade visual e URL da aplicação
 - Ativação/desativação manual de módulos
 - Plano, estado, periodicidade, valor e renovação
-- Área de utilizadores preparada para ligação futura
+- Área de integração por clube
+- Métricas falsas removidas: valores desconhecidos aparecem como “Por ligar”
+- Área de utilizadores preparada para ligação real
 - Notas internas
 - Comunicação/comunicados
 - Estatísticas base
@@ -43,7 +45,7 @@ Se as Netlify Functions não estiverem disponíveis, o frontend muda automaticam
 
 1. Autenticação real do Super Admin.
 2. Modelo multi-clube definitivo e permissões.
-3. API entre DOZE Platform e cada app de clube.
+3. Criar a ponte segura DOZE ↔ AC Matosinhos para métricas e comandos em tempo real.
 4. Aplicação automática de módulos/planos nas apps dos clubes.
 5. Gestão de pagamentos DOZE → clube e comprovativos.
 6. Métricas reais de utilizadores e atividade.
